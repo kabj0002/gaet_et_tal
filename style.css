@@ -1,0 +1,5 @@
+/* Styling når man gætter rigtig tal!*/
+.input-win {
+  border: 2rem;
+  border-color: green;
+}
