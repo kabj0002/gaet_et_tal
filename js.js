@@ -20,7 +20,7 @@ function evaluateTextfield() {
     responseField.textContent = "Tallet du har gættet er for lavt!";
   } else if (userNumber === randomNum) {
     responseField.textContent = "Tallet du har gættet er korrekt!";
-    document.querySelector("#response").classList.add(".input-win");
+    document.querySelector("#response").classList.add("input-win");
   }
 }
 
